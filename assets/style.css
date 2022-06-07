@@ -43,16 +43,19 @@ textarea {
   padding-top:10px;
 }
 
+/* This class will be added dynamically via javascript */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* This class will be added dynamically via javascript */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/* This class will be added dynamically via javascript */
 .future {
   background-color: #77dd77;
   color: white;
