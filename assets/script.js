@@ -14,7 +14,7 @@ function initialize(){
             $('#' + hours[index]).addClass('past')
         }else if (currentHour == hours[index]){
             $('#' + hours[index]).addClass('present')
-        }else{
+        }else if (currentHour < hours[index]){
             $('#' + hours[index]).addClass('future')
         }
         $('#' + hours[index]).text(local[index])
