@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Links to third party APIs -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -13,6 +14,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- Link to my stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -21,11 +23,14 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!-- Dynamically displays date -->
       <p id="currentDay" class="lead"></p>
+      <!-- Clears the schedule when clicked -->
       <button class="delete btn-danger">Clear schedule</button>
     </header>
     <div class="container">
       <div class="row">
+        <!-- Displays hour, textbox, and save button -->
         <div class="col-sm-1 hour">9AM</div>
         <div class="col-sm-10 p-0"><textarea name="" id="9" cols="5" rows="3" class="form-control"></textarea></div>
         <div class="col-sm-1 p-0"><button class="saveBtn w-100 h-100"><i class="fa-solid fa-floppy-disk"></i></button></div>
@@ -56,8 +61,10 @@
       </div>
     </div>
 
+    <!-- Third party scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- My script -->
     <script src="./assets/script.js"></script>
   </body>
 </html>

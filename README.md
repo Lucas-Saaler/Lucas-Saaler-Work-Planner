@@ -18,7 +18,7 @@ When you open the website, you will see a 9-5 schedule displayed in rows as well
 
 ## Credits
 
-The template of index.html was provided by the Ohio State University online coding bootcamp, and the save icon was provided by Font Awesome. In making this website, I used jQuery and Bootstrap. I wrote everything else myself.
+The template of index.html and style.css were provided by the Ohio State University online coding bootcamp, and the save icon was provided by Font Awesome. In making this website, I used jQuery and Bootstrap. I wrote everything else myself.
 
 ## License
 
